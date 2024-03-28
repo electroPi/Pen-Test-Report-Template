@@ -1,0 +1,8 @@
+# ignore all log files
+.log
+.aux
+.bcf
+.out
+.dvi
+# do not ignore the .gitignore file
+!.gitignore
