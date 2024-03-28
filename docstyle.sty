@@ -71,5 +71,6 @@
 
 \lhead{\client\ - \teamname}
 \rhead{\doctitle}
-\cfoot{\color{red}{NOTICE: CONFIDENTIAL FOR \cptc\ ONLY}}
+% \cfoot{\color{red}{NOTICE: CONFIDENTIAL FOR \cptc\ ONLY}}
+\cfoot{\color{red}{\ifthenelse{\boolean{confidentialTextEnabled}}{NOTICE: CONFIDENTIAL FOR \cptc\ ONLY}{}}}
 \rfoot{Page \thepage}

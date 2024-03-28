@@ -16,9 +16,9 @@
 \newcommand{\faculty}{}
 \newcommand{\client}{An Example Company}
 \newcommand{\cptc}{AEC}
-\newcommand{\teamname}{New Haven Hacking Inc.}
+\newcommand{\teamname}{P.R.T Inc.}
 \newcommand{\logopath}{images/general/logo.png}
-\newcommand{\institution}{University of New Haven}
+\newcommand{\institution}{P3dr0ck - CyInst}
 \renewcommand{\doctitle}{Penetration Test Report}
 
 % Custom Colors
@@ -37,15 +37,18 @@
 % One team member per line.
 % Example: \teammember{name}{email@example.tld}
 \newcommand{\teammembers}{
-\teammember{Samuel Zurowski}{szuro1@unh.newhaven.edu}
-\teammember{Charles Barone}{cbaro4@unh.newhaven.edu}
+\teammember{Péter Zoltán Kolcsár}{p3dr0ck@gmx.com}
 }
 
 % Institution logo on title page
 \newboolean{institutionLogoEnabled} % Do not modify this line
 % Set to true to enable the institution logo, false to disable it.
 \setboolean{institutionLogoEnabled}{true}
-\newcommand{\institutionlogo}{images/general/insitutionlogo.png}
+\newcommand{\institutionlogo}{images/general/prt.png}
+
+% Confidential enable disable on the report pages
+\newboolean{confidentialTextEnabled}
+\setboolean{confidentialTextEnabled}{false}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
